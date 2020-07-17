@@ -8,5 +8,5 @@
 make && \
 cd ../Kami && ./fixHaskell.sh ../BuildSim && cd ../BuildSim && \
 cp CustomExtract.bak CustomExtract.hs && \
-ghc $GHCFLAGS $parallel $profile $heapdump -O2 --make -i../Kami HaskellSim.hs -o HaskellSim && \
+ghc -O2 --make -i../Kami HaskellSim.hs -o HaskellSim && \
 echo "done"

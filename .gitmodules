@@ -1,0 +1,9 @@
+[submodule "bbv"]
+	path = bbv
+	url = https://github.com/mit-plv/bbv.git
+[submodule "coq-record-update"]
+	path = coq-record-update
+	url = https://github.com/tchajed/coq-record-update.git
+[submodule "Kami"]
+	path = Kami
+	url = https://github.com/llee454/Kami.git
